@@ -1,4 +1,4 @@
-# Project 2: Supervised Learning
+# Supervised Learning
 ## Building a Student Intervention System
 
 ### Install
@@ -11,9 +11,9 @@ This project requires **Python 2.7** and the following Python libraries installe
 
 You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
 
+## Model
 
-
-
+Support Vector Machines use the data collected on students (such as age, sex, absences) to draw a decision boundary to separate and classify students among those who passed and those who did not. In SVM, a function is created which draws a decision boundary that maximizes the overall margin between it and the students who we know passed or not -- the training data. When the need for maximizing the margin requires more and more complex decision lines, the use of 'kernel functions' create similarity measures to allow the SVM to take in new student's data and predict whether or not they need intervention.
 
 ## Data
 
